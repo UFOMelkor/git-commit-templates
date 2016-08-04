@@ -1,0 +1,41 @@
+# [[Type]] (If applied, this commit will...) <subject> (Max 60 char)
+# |<----    Should be not more than 60 Characters    ---->|
+
+
+# The body contains a detailed commit message explaining exactly
+# what has changed, and a summary of the reason why.
+# |<----                Try To Limit Each Line to a Maximum Of 100 Characters                ---->|
+
+
+# The footer contains a description of any breaking changes, no matter
+# how subtle, as well as a list of issues affected or fixed by this commit.
+# --------------------
+# BREAKING CHANGE:
+#
+# <Your breaking change>
+#
+# Fixes #23
+# |<----                Try To Limit Each Line to a Maximum Of 100 Characters                ---->|
+
+
+# --- COMMIT END ---
+# Type can be
+#    FEAT     (Commit introduces new functionality)
+#    FIX      (Commit fixes a bug or regression)
+#    DOCS     (Commit modifies documentation. Docs commits should only
+#              touch comments in source code, or scripts and assets
+#              which are used to generate the documentation.)
+#    TEST     (Commit modifies tests or test infrastructure only)
+#    CHORE    (Commit affects dev-ops, CI, or package dependencies)
+# --------------------
+# Remember to
+#    Capitalize the subject line
+#    Use the imperative mood in the subject line
+#    Do not end the subject line with a period
+#    Separate subject from body with a blank line
+#    Use the body to explain what and why vs. how
+#    Can use multiple lines with "-" for bullet points in body
+# --------------------
+# Add this file as commit template with
+#    git config --global commit.template JSHint.template
+# --------------------
